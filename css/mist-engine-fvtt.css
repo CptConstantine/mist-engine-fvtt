@@ -4756,15 +4756,15 @@ article.cc-enriched section.journal-entry-content {
 .litm-sto-theme-groups {
   display: flex;
   flex: 1 1 auto;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  gap: 6px 12px;
+  gap: 6px;
   min-width: 0;
 }
 
 .litm-sto-theme-group {
   display: flex;
-  flex: 0 1 auto;
+  width: 100%;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
